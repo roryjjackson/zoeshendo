@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&family=Karma&family=Martian+Mono:wght@800&family=Montserrat:wght@400;800;900&family=Raleway&family=Roboto+Mono&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&family=Karma&family=Martian+Mono:wght@800&family=Montserrat&family=Raleway&family=Roboto+Mono&display=swap');
+.image1, .image2, .image3, .image4 {
+  height: 700px;
+  /* width: 500px; */
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  margin: auto;
+}
+
+.image31 {
+  height: 700px;
+  width: 100%;
+  object-position: top;
+  object-fit: cover;
+  margin: auto;
+}
+
+/* h1, h2, p {
+  margin: 20px;
+  text-align: center;
+} */
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  margin: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
